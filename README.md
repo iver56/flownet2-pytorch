@@ -43,7 +43,15 @@ L1 and L2 losses with multi-scale support are available in [losses.py](./losses.
 
     # install custom layers
     bash install.sh
-    
+
+### Docker alternative
+
+See the provided [Dockerfile](Dockerfile).
+
+Build image: `docker build -t nvidia/flownet2-pytorch -f Dockerfile .`
+
+Create and run bash in a new container: `docker run --rm --runtime nvidia -it nvidia/flownet2-pytorch:latest /bin/bash`
+
 ### Python requirements 
 Currently, the code supports python 3
 * numpy 

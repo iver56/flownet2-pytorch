@@ -1,0 +1,6 @@
+.gitattributes
+.git
+.idea
+*.pyc
+Dockerfile
+.dockerignore
